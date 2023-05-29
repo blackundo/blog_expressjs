@@ -1,8 +1,10 @@
-class NewsController {
+class SiteController {
 
     // [Get] /news
     index(req, res) {
-        res.render('home');
+        res.render('home', {
+            title: 'homepage'
+        });
     }
 
     search(req, res) {
@@ -10,4 +12,4 @@ class NewsController {
     }
 }
 
-module.exports = new NewsController;
+module.exports = new SiteController;
