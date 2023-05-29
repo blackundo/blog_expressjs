@@ -1,0 +1,25 @@
+{
+  "name": "blog_expressjs",
+  "version": "1.0.0",
+  "description": "A blog basic using expressjs for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackundo/blog_expressjs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Black Undo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackundo/blog_expressjs/issues"
+  },
+  "homepage": "https://github.com/blackundo/blog_expressjs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
